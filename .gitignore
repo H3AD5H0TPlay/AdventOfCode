@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+virtualenv/
+
+# C/C++
+*.o
+*.out
+
+# Java
+*.class
+
+# VSCode
+.vscode/
