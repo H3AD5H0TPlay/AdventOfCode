@@ -1,13 +1,43 @@
-# Python
-__pycache__/
-virtualenv/
+# General IDE/Editor config
+.vscode/
 
-# C/C++
+# Build artifacts & compiled files
+build/
+bin/
+obj/
 *.o
 *.out
+*.exe
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.env
 
 # Java
 *.class
+*.jar
+*.war
+*.ear
+target/
+.gradle/
+log/
 
-# VSCode
-.vscode/
+# C# (.NET)
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.dll
+*.pdb
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+
