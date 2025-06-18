@@ -1,17 +1,23 @@
 # General IDE/Editor config
 .vscode/
 
-# Build artifacts & compiled files
-build/
-bin/
-obj/
-*.o
-*.out
-*.exe
+# Build artifacts & compiled files in any subdirectory
+**/bin/
+**/obj/
+**/build/
+**/target/
 
 # Operating System files
 .DS_Store
 Thumbs.db
+
+# C/C++ specific compiled files
+*.o
+*.a
+*.so
+*.out
+*.exe
+*executable
 
 # Python
 __pycache__/
@@ -25,8 +31,6 @@ venv/
 *.jar
 *.war
 *.ear
-target/
-.gradle/
 log/
 
 # C# (.NET)
@@ -36,8 +40,4 @@ log/
 *.sln.docstates
 *.dll
 *.pdb
-[Bb]in/
-[Oo]bj/
-[Dd]ebug/
-[Rr]elease/
 
